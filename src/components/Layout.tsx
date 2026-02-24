@@ -1,6 +1,6 @@
 import { Link, Outlet, useLocation } from 'react-router-dom';
 import { motion } from 'motion/react';
-import { Github, Twitter, Terminal, Mail } from 'lucide-react';
+import { Github, Twitter, Linkedin, Terminal, Mail } from 'lucide-react';
 
 export default function Layout() {
   const location = useLocation();
@@ -46,6 +46,7 @@ export default function Layout() {
           <a href="https://github.com/Naturalseeker22" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-400 transition-colors"><Github className="w-4 h-4" /></a>
           <a href="https://x.com/naturalseeker22" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-400 transition-colors"><Twitter className="w-4 h-4" /></a>
           <a href="https://www.kaggle.com/naturalseeker" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-400 transition-colors"><span className="text-sm font-bold">K</span></a>
+          <a href="https://www.linkedin.com/in/shivaco22" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-400 transition-colors"><Linkedin className="w-4 h-4" /></a>
           <a href="mailto:shivaco@bu.edu" className="hover:text-emerald-400 transition-colors"><Mail className="w-4 h-4" /></a>
         </footer>
       </div>
