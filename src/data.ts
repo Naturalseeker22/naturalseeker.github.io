@@ -46,6 +46,11 @@ export const highlights: Highlight[] = [
     url: "https://www.kaggle.com/naturalseeker",
   },
   {
+    date: "Jun 2025",
+    title: "YC AI Startup School 2025",
+    result: "Attended Y Combinator's AI Startup School.",
+  },
+  {
     date: "Nov 2024",
     title: "ARC Prize 2024",
     result: "Ranked #74 / 1,427 teams worldwide.",
